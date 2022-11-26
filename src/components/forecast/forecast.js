@@ -22,7 +22,7 @@ const Forecast = ({ data }) => {
         // }
     }
 
-    if (dataDays[0].dt_txt.slice(8, 10) === todayDate) {
+    if (dataDays[0].dt_txt.slice(8, 10) == todayDate) {
         dataDays.shift();
     }
 
